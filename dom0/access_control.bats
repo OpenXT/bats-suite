@@ -5,7 +5,7 @@
 }
 
 @test "check XSM enforcing" {
-    [ "$(xenops getenforce)" = "Enforcing" ]
+    [ "$(xl getenforce)" = "Enforcing" ]
 }
 
 @test "no kernel classes/permissions left undefined in the SELinux policy" {
